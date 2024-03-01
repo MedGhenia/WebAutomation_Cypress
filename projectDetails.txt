@@ -1,0 +1,8 @@
+PS C:\Users\MedUl\CypressAutomation\ProjectFirst_Cypress> npx cypress --version
+Cypress package version: 9.7.0
+Cypress binary version: 9.7.0
+Electron version: 18.0.4
+Bundled Node version:
+16.13.2
+PS C:\Users\MedUl\CypressAutomation\ProjectFirst_Cypress> node --version 
+v20.11.1
