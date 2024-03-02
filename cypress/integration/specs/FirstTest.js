@@ -6,4 +6,4 @@ describe('MyTestSuite', function()
 	 cy.title().should('eq','YouTube')
 	 })
 	 
-})
+}) 
