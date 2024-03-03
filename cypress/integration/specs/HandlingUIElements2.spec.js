@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-const { contains } = require("cypress/types/jquery")
-
 
 describe('Suite Name', function(){
 
