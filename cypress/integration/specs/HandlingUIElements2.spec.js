@@ -1,5 +1,10 @@
 /// <reference types="cypress" />
 
+import './commands'
+Cypress.on('uncaught:exception', (err, runnable) => {
+  // returning false here prevents Cypress from failing the test
+  return false
+})
 
 describe('Suite Name', function(){
 
@@ -7,6 +12,7 @@ describe('Suite Name', function(){
     it('Hobbies check boxes', function (){
 
         cy.visit("https://demo.automationtesting.in/Register.html")
+        
 
         cy.get('#checkbox1').check().should('be.checked').and('have.value','Cricket') // cocher Cricket checkbox et verifier qui'il est cohee et nverifier value
         cy.get('#checkbox2').check().should('be.checked').and('have.value','Movies')
