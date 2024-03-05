@@ -19,6 +19,11 @@ describe('MyTestSuite', function(){
         cy.go(-1) //back
         cy.title().should('eq','nopCommerce demo store')  // Home 
 
+        cy.go(1) //forward
+        cy.title().should('eq','nopCommerce demo store. Register')  // Reg Page
+
+        cy.reload()
+
     })
 
 })
