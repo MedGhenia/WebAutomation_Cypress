@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run --config pageLoadTimeout=100000",
+    "test": "npx cypress run",
     "test2": "npx cypress run --spec \"\\cypress\\integration\\specs\\POM_Pattern_OrangeHRM.spec.js\" ",
     "runtests": "npm run test --"
   },
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
-    "cypress": "^3.6.1"
+    "cypress": "^13.7.0"
   }
 }
